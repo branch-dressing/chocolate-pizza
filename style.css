@@ -1,0 +1,169 @@
+body {
+    width: 840px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo-area {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 42px;
+    height: 45px;
+    margin-right: 7px;
+    margin-top: 15px
+}
+
+h1 {
+    font-family: 'Lobster';
+    margin-bottom: 0px;
+
+}
+
+h2 {
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 9px;
+    margin-top: -5px;
+    text-transform: uppercase
+}
+
+h3 {
+    font-family: 'Oswald';
+    font-size: 40px;
+    margin: 0;
+}
+
+h4 {
+    margin-top: -5px;
+    font-family: sans-serif;
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 11px
+}
+
+h5 {
+    font-size: 24px;
+    margin-bottom: -12px;
+    color: #676767;
+}
+
+#hero-image {
+    width: 840px;
+}
+
+#ingredients {
+    background-image: url('./imgs/list-bg.png');
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+ul div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+section hr {
+    background-image: url('./imgs/hr-img.png');
+    background-repeat: repeat;
+    height: 10px;
+    border: 0px
+}
+
+
+article p {
+    text-indent: 50px;
+    width: 890;
+    margin: 30px auto;
+}
+
+p {
+    color: #8a8a8a;
+    font-size: 18px;
+}
+
+#article-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+#article-intro img {
+    width: 11px;
+    height: 11px;
+}
+
+li {
+    font-family: 'Patrick Hand';
+    font-size: 22px;
+    color: grey;
+    line-height: 32px
+}
+
+#print {
+    color: gray;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #cc7850;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+#about img {
+    margin: 10px
+}
+
+#about p {
+    margin-right: 16px;
+}
+
+footer {
+    height: 200px;
+}
+
+footer hr {
+    margin-bottom: -18px;
+    margin-top: 35px;
+}
+
+#footer-image {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-text {
+    text-align: center
+}
+
+h6 {
+    color: gray;
+    margin-bottom: -24px;
+}
